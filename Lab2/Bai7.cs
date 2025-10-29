@@ -17,15 +17,13 @@ namespace Lab2
         {
             InitializeComponent();
 
-            // Đăng ký events
             treeView1.BeforeExpand += TreeView_BeforeExpand;
             treeView1.NodeMouseDoubleClick += TreeView_NodeMouseDoubleClick;
             treeView1.AfterSelect += TreeView_AfterSelect;
 
-            LoadDrives(); // Load các ổ đĩa khi khởi động
+            LoadDrives(); 
         }
 
-        // Load tất cả các ổ đĩa vào TreeView
         private void LoadDrives()
         {
             treeView1.Nodes.Clear();
@@ -43,7 +41,6 @@ namespace Lab2
             }
         }
 
-        // Event: Trước khi expand node (mở thư mục)
         private void TreeView_BeforeExpand(object sender, TreeViewCancelEventArgs e)
         {
             TreeNode node = e.Node;
@@ -56,7 +53,6 @@ namespace Lab2
             }
         }
 
-        // Load các thư mục con VÀ FILE vào TreeNode
         private void LoadDirectoriesAndFiles(TreeNode parentNode)
         {
             string path = parentNode.Tag as string;
@@ -100,17 +96,13 @@ namespace Lab2
             }
             catch (UnauthorizedAccessException)
             {
-                // Không có quyền truy cập
             }
             catch (Exception)
             {
-                // Lỗi khác - bỏ qua
             }
         }
 
-        
 
-        // Event: Double click vào node
         private void TreeView_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
         {
             string path = e.Node.Tag as string;
@@ -125,7 +117,6 @@ namespace Lab2
             }
         }
 
-        // Event: Sau khi chọn node trong TreeView
         private void TreeView_AfterSelect(object sender, TreeViewEventArgs e)
         {
             string path = e.Node.Tag as string;
@@ -141,7 +132,6 @@ namespace Lab2
             }
         }
 
-        // Xóa nội dung hiển thị
         private void ClearContent()
         {
             if (pictureBox1 != null)
@@ -157,7 +147,6 @@ namespace Lab2
                 pictureBox1.Visible = false;
         }
 
-        // Hiển thị nội dung file
         private void DisplayFileContent(string path)
         {
             try
@@ -202,7 +191,6 @@ namespace Lab2
             }
         }
 
-        // Hiển thị hình ảnh
         private void DisplayImage(string path)
         {
             try
@@ -238,7 +226,6 @@ namespace Lab2
             }
         }
 
-        // Hiển thị nội dung text
         private void DisplayText(string path)
         {
             try
