@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\n\u0103m 2\\lap_trinh_mang\\TH-Buoi2\\Lab2\\",
+  "WorkspaceRootPath": "D:\\n\u0103m 2\\lap_trinh_mang\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2ECD813-2BB6-4F4D-94A5-30686B54254E}|Lab2\\Lab2.csproj|D:\\n\u0103m 2\\lap_trinh_mang\\TH-Buoi2\\Lab2\\lab2\\bai7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F2ECD813-2BB6-4F4D-94A5-30686B54254E}|Lab2\\Lab2.csproj|d:\\n\u0103m 2\\lap_trinh_mang\\lab2\\lab2\\bai7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F2ECD813-2BB6-4F4D-94A5-30686B54254E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2ECD813-2BB6-4F4D-94A5-30686B54254E}|Lab2\\Lab2.csproj|D:\\n\u0103m 2\\lap_trinh_mang\\TH-Buoi2\\Lab2\\lab2\\bai7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2ECD813-2BB6-4F4D-94A5-30686B54254E}|Lab2\\Lab2.csproj|D:\\n\u0103m 2\\lap_trinh_mang\\Lab2\\lab2\\bai7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2ECD813-2BB6-4F4D-94A5-30686B54254E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Bai7.cs",
-              "DocumentMoniker": "D:\\n\u0103m 2\\lap_trinh_mang\\TH-Buoi2\\Lab2\\Lab2\\Bai7.cs",
+              "DocumentMoniker": "D:\\n\u0103m 2\\lap_trinh_mang\\Lab2\\Lab2\\Bai7.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai7.cs",
-              "ToolTip": "D:\\n\u0103m 2\\lap_trinh_mang\\TH-Buoi2\\Lab2\\Lab2\\Bai7.cs",
+              "ToolTip": "D:\\n\u0103m 2\\lap_trinh_mang\\Lab2\\Lab2\\Bai7.cs",
               "RelativeToolTip": "Lab2\\Bai7.cs",
               "ViewState": "AgIAAOwAAAAAAAAAAAAmwBoBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Bai7.cs [Design]",
-              "DocumentMoniker": "D:\\n\u0103m 2\\lap_trinh_mang\\TH-Buoi2\\Lab2\\Lab2\\Bai7.cs",
+              "DocumentMoniker": "D:\\n\u0103m 2\\lap_trinh_mang\\Lab2\\Lab2\\Bai7.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai7.cs",
-              "ToolTip": "D:\\n\u0103m 2\\lap_trinh_mang\\TH-Buoi2\\Lab2\\Lab2\\Bai7.cs [Design]",
+              "ToolTip": "D:\\n\u0103m 2\\lap_trinh_mang\\Lab2\\Lab2\\Bai7.cs [Design]",
               "RelativeToolTip": "Lab2\\Bai7.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T09:38:54.419Z",
