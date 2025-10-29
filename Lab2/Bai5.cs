@@ -14,7 +14,7 @@ namespace Lab2
 {
     public partial class Bai5 : Form
     {
-        // Cấu trúc dữ liệu Phim
+
         public class Phim
         {
             public string MaPhim { get; set; }
@@ -22,12 +22,10 @@ namespace Lab2
             public int GiaVeChuan { get; set; }
             public List<string> DanhSachPhong { get; set; } = new List<string>();
 
-            // Thống kê
             public int SoVeBanRa { get; set; } = 0;
             public int DoanhThu { get; set; } = 0;
         }
 
-        // Cấu trúc dữ liệu Phòng chiếu
         public class PhongChieu
         {
             public string MaPhong { get; set; }
@@ -36,7 +34,6 @@ namespace Lab2
             public string GioChieu { get; set; }
         }
 
-        // Cấu trúc Vé
         public class Ve
         {
             public string MaGhe { get; set; }
@@ -118,7 +115,6 @@ namespace Lab2
             VoHieuHoaChonGhe();
         }
 
-        // Đọc dữ liệu từ file input5.txt
         private void DocDuLieuTuFile()
         {
             try
@@ -196,7 +192,6 @@ namespace Lab2
             }
         }
 
-        // Tạo file mẫu
         private void TaoFileMau()
         {
             StringBuilder sb = new StringBuilder();
@@ -222,7 +217,6 @@ namespace Lab2
             File.WriteAllText(FILE_INPUT, sb.ToString(), Encoding.UTF8);
         }
 
-        // Hiển thị bảng giá
         private void HienThiBangGia()
         {
             string bangGia = "===== BẢNG GIÁ VÉ =====\n";
@@ -250,7 +244,6 @@ namespace Lab2
             }
         }
 
-        // Khi chọn phim
         private void cboPhim_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cboPhim.SelectedIndex < 0) return;
@@ -261,7 +254,6 @@ namespace Lab2
             LoadPhongChieu(maPhim);
         }
 
-        // Load phòng chiếu theo phim
         private void LoadPhongChieu(string maPhim)
         {
             cboPhongChieu.Items.Clear();
@@ -280,7 +272,6 @@ namespace Lab2
             }
         }
 
-        // Khi chọn phòng chiếu
         private void cboPhongChieu_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cboPhongChieu.SelectedIndex < 0) return;
@@ -541,8 +532,7 @@ namespace Lab2
 
             ResetForm();
         }
-
-        // Xuất thống kê ra file với ProgressBar
+        
         private async void btnXuatThongKe_Click(object sender, EventArgs e)
         {
             try
