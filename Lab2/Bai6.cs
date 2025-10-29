@@ -33,7 +33,6 @@ namespace Lab2
             LoadDanhSachNguoiDung();
         }
 
-        // Khởi tạo database và các bảng
         private void KhoiTaoDatabase()
         {
             try
@@ -84,9 +83,7 @@ namespace Lab2
             }
         }
 
-        
 
-        // Load danh sách món ăn vào ListView
         private void LoadDanhSachMonAn()
         {
             try
@@ -134,7 +131,6 @@ namespace Lab2
             }
         }
 
-        // Load danh sách người dùng vào ComboBox
         private void LoadDanhSachNguoiDung()
         {
             try
@@ -168,8 +164,6 @@ namespace Lab2
             }
         }
 
-
-        // Thêm món ăn mới
         private void btnThemMonAn_Click(object sender, EventArgs e)
         {
             string tenMonAn = txtTenMonAn.Text.Trim();
@@ -222,7 +216,6 @@ namespace Lab2
             }
         }
 
-        // Chọn hình ảnh
         private void btnChonHinh_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
@@ -237,7 +230,6 @@ namespace Lab2
             }
         }
 
-        // Tìm món ăn ngẫu nhiên
         private void btnTimMonAn_Click(object sender, EventArgs e)
         {
             try
@@ -312,7 +304,6 @@ namespace Lab2
             }
         }
 
-        // Xóa món ăn được chọn
         private void btnXoaMonAn_Click(object sender, EventArgs e)
         {
             if (lstDanhSachMonAn.SelectedItems.Count == 0)
@@ -374,7 +365,6 @@ namespace Lab2
 
         }
 
-        // Thoát chương trình
         private void btnThoat_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show(
@@ -389,7 +379,6 @@ namespace Lab2
             }
         }
 
-        // Thêm người dùng mới
         private void btnThemNguoiDung_Click(object sender, EventArgs e)
         {
             using (Form formNguoiDung = new Form())
